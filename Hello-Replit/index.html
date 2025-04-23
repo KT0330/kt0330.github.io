@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的作品集</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">關於我</a>
+      <a href="#projects">作品集</a>
+      <a href="#contact">聯絡方式</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+
+      <img src="attached_assets/2354.JPG" alt="個人照片" class="profile-image">
+      <div class="about-content">
+        <h2>林楷庭</h2>
+        <p>喜歡接觸新事物、挑戰自我、自學能力較強，工作時會認真看待每一件事，全力以赴讓任務完美達成目標。</p>
+
+        <div class="skills-section">
+          <h3>專業技能</h3>
+          <ul>
+            <li>文書處理：Word, Excel, Power Point</li>
+            <li>美術編輯：<span class="poster-link">海報</span></li>
+
+            <!-- Modal for poster -->
+            <div id="posterModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" src="attached_assets/5678.jpg" alt="海報作品">
+            </div>
+
+          </ul>
+        </div>
+
+        <div class="education-section">
+          <h3>學歷背景</h3>
+          <p>國立台灣科技大學 企業管理系</p>
+          <p>GPA: 3.8/4.0</p>
+        </div>
+
+        <div class="interests-section">
+          <h3>興趣愛好</h3>
+          <p>美術、聽歌、逛街</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>作品集</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <span class="icon">🎨</span>
+        <h3>人臉辨識專案</h3>
+        <p>使用機器學習實現人臉特徵點偵測與分析</p>
+        <div class="project-images">
+          <img src="attached_assets/1.jpg" alt="人臉特徵點偵測">
+          <img src="attached_assets/2.jpg" alt="姿態偵測">
+          <img src="attached_assets/3.jpg" alt="人臉特徵分析">
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="icon">💻</span>
+        <h3>臉部特效專案</h3>
+        <p>使用機器學習實現臉部特效與表情變換</p>
+        <div class="project-images">
+          <img src="attached_assets/11.jpg" alt="臉部特效1">
+          <img src="attached_assets/22.jpg" alt="臉部特效2">
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="icon">📱</span>
+        <h3>人群偵測專案</h3>
+        <p>使用機器學習實現人群偵測與分析</p>
+        <div class="project-images">
+          <img src="attached_assets/111.jpg" alt="人群偵測">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡方式</h2>
+    <p>Email: your.email@example.com</p>
+    <p>電話: (02) 2345-6789</p>
+    <div class="social-links">
+      <p>LinkedIn: linkedin.com/in/kaiting-lin</p>
+      <p>個人部落格: blog.kaiting.tw</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
